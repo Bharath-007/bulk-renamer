@@ -37,6 +37,9 @@ export const useFileManager = () => {
     setFiles([]);
   };
 
+  console.log(processedFiles);
+  
+
   return {
     files,
     addFiles,
